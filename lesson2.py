@@ -1,6 +1,6 @@
 def find_average_price(price1,price2):
     return (price1+price2/2)
-def cube_volume(volume):
+def cube_volume(sidelength):
     return sidelength**3
 def main():
     """price1 = float(input("What is the price? "))
