@@ -17,10 +17,15 @@ while True:
     if len(user_code) != 7:
         print("Invalid postal code format.")
         continue
-   
+
     else:
         first = user_code[0]
         second = user_code[1]
+        space = user_code[3]
+
+        if space != ' ':
+            print('Invalid poastal code format.')
+            continue
 
         if first in province:
             location_type = second
